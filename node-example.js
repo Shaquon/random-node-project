@@ -17,5 +17,8 @@ const wordGenerator = () => {
 const rootElement = document.getElementById('root');
 rootElement.innerHTML = wordGenerator();
 
+const newFeatureMethod = () => {
+    return '';
+}
 
 console.log(wordGeneratorResult);
